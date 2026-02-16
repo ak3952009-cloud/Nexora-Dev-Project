@@ -1,0 +1,194 @@
+[
+    {
+        "img": "Assets/Images/Valentine1.webp",
+        "Name": "Forever Love",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/Valentine1.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine2.webp",
+        "Name": "Be My Valentine",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine3.webp",
+        "Name": "Love Forever",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine4.webp",
+        "Name": "Sweetheart Card",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine5.webp",
+        "Name": "Endless Love",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine6.webp",
+        "Name": "Heart Beats",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine7.webp",
+        "Name": "Love Story",
+        "Price": "Rs399.00",
+        "Discount-Price": "Re499.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/Valentine8.webp",
+        "Name": "Only You",
+        "Price": "Rs399.00",
+        "Discount-Price": "Re499.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday7.webp",
+        "Name": "Happy Birthday Wishes",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday2.webp",
+        "Name": "Celebrate Your Day",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday3.webp",
+        "Name": "Birthday Cheers",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday4.webp",
+        "Name": "A Special Day for You",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday5.webp",
+        "Name": "Party Time",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday8.webp",
+        "Name": "Best Wishes on Your Birthday",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday1.webp",
+        "Name": "Make a Wish",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/birthday6.webp",
+        "Name": "Birthday Happiness",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary5.webp",
+        "Name": "Happy Anniversary",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary4.jpg",
+        "Name": "Forever Together",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary3.jpg",
+        "Name": "Love Forever",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary2.jpg",
+        "Name": "Together Always",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary1.jpg",
+        "Name": "Endless Love",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary6.webp",
+        "Name": "Celebrating Love",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary7.webp",
+        "Name": "Journey of Love",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/anniversary8.webp",
+        "Name": "Perfect Couple",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    }
+]
