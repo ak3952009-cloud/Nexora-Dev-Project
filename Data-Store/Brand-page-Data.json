@@ -1,0 +1,171 @@
+[
+    {
+        "img": "Assets/Images/archies1.webp",
+        "Name": "Happy Valentines Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "hoverImg": "Assets/Images/archies5.webp",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies2.webp",
+        "Name": "Wife Greeting Card ",
+        "Price": "Rs180.00",
+        "Discount-Price": "Re300.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies3.webp",
+        "Name": "Baby Greeting Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies4.webp",
+        "Name": "Birthday Greeting Card ",
+        "Price": "Rs150.00",
+        "Discount-Price": "Re200.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies5.webp",
+        "Name": "Birthday Card Daughter",
+        "Price": "Rs149.00",
+        "Discount-Price": "Re199.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies6.webp",
+        "Name": "Birthday Wife Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies7.webp",
+        "Name": "Loved Greeting Card",
+        "Price": "Rs799.00",
+        "Discount-Price": "Re999.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/archies8.webp",
+        "Name": "Happy Valentines Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re500.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark1.jpg",
+        "Name": "Wife Greeting Card ",
+        "Price": "Rs399.00",
+        "Discount-Price": "Re499.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark2.jpg",
+        "Name": "Husband Valentines Card",
+        "Price": "Rs399.00",
+        "Discount-Price": "Re499.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark3.jpg",
+        "Name": "Kind Birthday Card",
+        "Price": "Rs199.00",
+        "Discount-Price": "Re399.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark4.jpg",
+        "Name": "Kitty Birthday Card",
+        "Price": "Rs199.00",
+        "Discount-Price": "Re399.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark5.jpg",
+        "Name": "Anniversary Card ",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark6.jpg",
+        "Name": "Anniversary Love Card",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark7.jpg",
+        "Name": "Friendship Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re499.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/hallmark8.jpg",
+        "Name": "Friendship Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re499.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon1.jpg",
+        "Name": "Birthday Card",
+        "Price": "Rs399.00",
+        "Discount-Price": "Re499.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon2.jpg",
+        "Name": "Birthday Card",
+        "Price": "Rs399.00",
+        "Discount-Price": "Re499.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon3.jpg",
+        "Name": "Valentines Card",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon4.jpg",
+        "Name": "Valentines Card",
+        "Price": "Rs499.00",
+        "Discount-Price": "Re699.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon5.jpg",
+        "Name": "Anniversary Cards",
+        "Price": "Rs599.00",
+        "Discount-Price": "Re699.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon6.jpg",
+        "Name": "Anniversary Cards",
+        "Price": "Rs599.00",
+        "Discount-Price": "Re699.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon7.jpg",
+        "Name": "Mother Day Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re399.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    },
+    {
+        "img": "Assets/Images/moon8.jpg",
+        "Name": "Love Card",
+        "Price": "Rs299.00",
+        "Discount-Price": "Re399.00",
+        "Shoping-bag": "Assets/SVG/Bag.svg"
+    }
+]
