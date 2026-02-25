@@ -1,0 +1,349 @@
+@media (max-width:1440px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .hamburger {
+        display: none;
+    }
+
+    #Welcome-sec {
+        padding: 0 2%;
+    }
+
+    #Welcome-sec .Play {
+        left: 30%;
+    }
+
+    .First-col .Box img,
+    .Second-col .Box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .First-col .Box,
+    .Second-col .Box {
+        width: 70%;
+        min-height: 200px;
+    }
+
+    .brand-card,
+    .occasions-card {
+        width: 30%;
+        min-width: 250px;
+        height: 55vh;
+        background-color: var(--main-bg);
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(248, 164, 164, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards-full .images-sec .image-box {
+        gap: 40px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .Brand-heading h2,
+    .occasions-heading h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .link {
+        display: none;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .logo {
+        justify-content: start;
+    }
+
+    #Welcome-sec {
+        flex-direction: column;
+    }
+
+    .content-box {
+        width: 100%;
+        align-items: start;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    #Welcome-sec .Play {
+        position: absolute;
+        left: 53%;
+        top: 22%;
+    }
+
+    .images {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .brand-card,
+    .occasions-card {
+        width: 40%;
+        min-width: 250px;
+        height: 55vh;
+        background-color: var(--main-bg);
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(248, 164, 164, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-boxes {
+        flex-direction: column;
+    }
+
+    .get-in-touch {
+        width: 100%;
+    }
+
+    .footer-right {
+        position: absolute;
+        right: 11rem;
+    }
+    .cards-full {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cards-full .images-sec {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .cards-full .content-sec {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .cards-full .images-sec .image-box {
+        width: 100%;
+        height: auto;
+        gap: 15px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding: 0px 50px;
+    }
+
+    .images-sec .image-box .box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cards-full .images-sec .full-image {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+        
+    }
+
+    .images-sec .full-image #image {
+        width: 80%;
+        height: auto;
+    }
+
+    .images-sec .full-image #image img {
+        width: 100%;
+        height: auto;
+    }
+    .content-sec .discription p{
+        margin-top: 2rem;
+        max-width: 34rem;
+    }
+}
+
+
+@media (max-width:425px) {
+    .hamburger {
+        width: 25px;
+        height: 25px;
+    }
+
+    #cart-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #Welcome-sec .Play {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .First-col .Box img,
+    .Second-col .Box img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .First-col .Box,
+    .Second-col .Box {
+        width: 70%;
+        min-height: 160px;
+    }
+
+    .Brand-heading h2,
+    .occasions-heading h2 {
+        text-align: center;
+    }
+
+    .brand-card,
+    .occasions-card {
+        width: 80%;
+    }
+
+    .footer-right {
+        position: absolute;
+        right: 0;
+        top: 14.5rem;
+    }
+
+    .Brand-button,
+    .occasions-button {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 15px
+    }
+
+    .carts {
+        right: -140%;
+    }
+
+    .cards-full {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .cards-full .images-sec {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-full .images-sec .image-box {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 15px;
+        margin-left: 2rem;
+    }
+
+    .images-sec .image-box .box {
+        width: 60px;
+        height: 60px;
+    }
+
+    .images-sec .image-box .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .cards-full .images-sec .full-image {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .images-sec .full-image #image {
+        width: 100%;
+        height: auto;
+    }
+
+    .images-sec .full-image #image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards-full .content-sec {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content-sec h1 {
+        font-size: 22px;
+    }
+
+    .content-sec h2 {
+        font-size: 18px;
+    }
+
+    .content-sec .button {
+        gap: 10px;
+    }
+
+    .content-sec .button button {
+        width: 70%;
+        margin-top: 15px;
+    }
+    .carts{
+        width: 320px;
+    }
+    .side-bar,.side-bar .link,.side-bar .icon{
+        width: 320px;
+    }
+    .side-bar .logo .close{
+        width: 10%;
+    }
+    .side-bar .icon{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width:375px) {
+    .cart {
+        margin-right: 0;
+
+    }
+}
+
+@media (max-width:320px) {
+
+    .First-col .Box img,
+    .Second-col .Box img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .First-col .Box,
+    .Second-col .Box {
+        width: 70%;
+        min-height: 130px;
+    }
+
+    .footer-right {
+        position: absolute;
+        right: 0rem;
+        top: 20rem;
+    }
+}
