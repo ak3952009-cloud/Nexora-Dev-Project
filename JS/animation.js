@@ -47,3 +47,8 @@ gsap.to(".Second-col", {
     ease: "linear",
     repeat: -1
 });
+window.addEventListener("load", function(){
+    setTimeout(function(){
+        document.querySelector(".loader").classList.add("hide");
+    }, 10); 
+});

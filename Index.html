@@ -12,9 +12,16 @@
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" href="CSS/Media.css">
     <link rel="stylesheet" href="CSS/Animation.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- loader -->
+    <div class="loader">
+        <div class="heart">❤</div>
+        <p>Loading Love...</p>
+    </div>
     <!-- Navbar -->
     <nav>
         <div class="logo">
@@ -30,18 +37,34 @@
             </ul>
         </div>
         <div class="cart">
-            <img src="Assets/SVG/like.svg" width="8%" alt="">
-            <img src="Assets/SVG/cart.svg" width="8%" alt="">
-            <p>Your Cart <br><span>$0.00</span></i></p>
+            <img class="hamburger" onclick="showsidebar()" src="Assets/SVG/Menu.svg" width="8%" alt="">
+            <img src="Assets/SVG/like.svg" class="nav-icon" alt="">
+            <img id="cart-icon" src="Assets/SVG/cart.svg" width="8%" alt="">
+            <span class="count"></span></i>
         </div>
     </nav>
+    <div class="carts">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs:0</div>
+        </div>
+        <button class="btn-buy">Buy now</button>
+        <svg id="cart-close" xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px"
+            fill="#000">
+            <path
+                d="m336-280-56-56 144-144-144-143 56-56 144 144 143-144 56 56-144 143 144 144-56 56-143-144-144 144Z" />
+        </svg>
+    </div>
     <!-- side-bar -->
-    <section class="slide-bar">
+    <section id="side-bar" class="side-bar">
         <div class="logo">
             <div class="logo-image">
             </div>
             <div class="close">
-                <img src="Assets/SVG/close.svg" alt="">
+                <img onclick="hidesidebar()" src="Assets/SVG/close.svg" alt="">
             </div>
         </div>
         <div class="link">
@@ -77,8 +100,7 @@
                             fill="#FF7A00"></path>
                     </svg>
                 </p>
-                <h1>Welcome to Red Cards <span>Limited</span> <span class="line"><img src="Assets/Images/vector-1.png"
-                            alt=""></span></h1>
+                <h1>Welcome to Red <br class="none"> Cards <span>Limited <img class="line" src="Assets/Images/vector-1.png"alt=""></span></h1>
                 <div class="key">
                     <p><img src="Assets/SVG/Check.svg" width="25px" height="25px" alt="">Free and easy to get started
                     </p>
@@ -96,23 +118,23 @@
             <div class="container">
                 <div class="First-col">
                     <div class="Box">
-                        <img src="Assets/Images/archies1.webp" width="200px" height="200px" alt="">
+                        <img src="Assets/Images/archies1.webp"  alt="">
                     </div>
                     <div style=" background-color: rgba(168, 124, 173, 0.63);" class="Box">
-                        <img src="Assets/Images/archies2.webp" width="200px" height="200px" alt="">
+                        <img src="Assets/Images/archies2.webp" alt="">
                     </div>
                 </div>
                 <div class="Second-col">
                     <div style=" background-color: rgba(104, 207, 194, 0.699);" class="Box">
-                        <img src="Assets/Images/moon3.jpg" width="200px" height="200px" alt="">
+                        <img src="Assets/Images/moon3.webp"  alt="">
                     </div>
                     <div style=" background-color: rgba(207, 104, 207, 0.699);" class="Box">
-                        <img src="Assets/Images/moon4.jpg" width="200px" height="200px" alt="">
+                        <img src="Assets/Images/moon4.webp"  alt="">
                     </div>
                 </div>
             </div>
-
         </div>
+
 
     </section>
     <!-- Featured-cards -->
@@ -153,25 +175,26 @@
             </div>
         </div>
     </section>
+    <!-- About -->
+    <section class="About">
+
+    </section>
     <!-- Brand-card-Page -->
     <section id="Brand-page" class="Brand-page">
         <div class="Brand-heading">
             <p>Brands</p>
             <h2>Premium Cards by Your Favorite Brands</h2>
         </div>
+
         <div class="Brand-button">
-            <button style="background-color: #a4a9dd; border: none;">Show All</button>
-            <button>Archies</button>
-            <button>Hallmark</button>
-            <button>Moonpig</button>
-        </div>
-        <div id="Card" class="brand-card-row"> </div>
+            <button data-brand="all">Show All</button>
+            <button data-brand="archies">Archies</button>
+            <button data-brand="hallmark">Hallmark</button>
+            <button data-brand="moonpig">Moonpig</button>
         </div>
         <div id="Card" class="brand-card-row"></div>
-        <div id="Card" class="brand-card-row"></div>
-        <div id="Card" class="brand-card-row"></div>
-        </div>
     </section>
+
     <!-- Occasion-card-page -->
     <section id="occasions-page" class="occasions-page">
         <div class="occasions-heading">
@@ -179,10 +202,10 @@
             <h2>Cards for Every Special Occasion</h2>
         </div>
         <div class="occasions-button">
-            <button style="background-color: #a4a9dd; border: none;">Show All</button>
-            <button>Birthday</button>
-            <button>Anniversary</button>
-            <button>Valentine'Day</button>
+            <button data-brand="all">Show All</button>
+            <button data-brand="birthday">Birthday</button>
+            <button data-brand="valentine">Valentine</button>
+            <button data-brand="love">Love card</button>
         </div>
         <div id="occasions-card" class="occasions-card-row">
         </div>
@@ -215,7 +238,7 @@
                     <div class="phone">
                         <img src="Assets/SVG/Phone.svg" alt="">
                         <div class="Phone-text">
-                            <a href="">03140288803</a>
+                            <a href="tel:+923140288803">03140288803</a>
                             <p>Phone Number</p>
                         </div>
                     </div>
@@ -235,7 +258,7 @@
         </div>
     </section>
     <!-- User-card -->
-    <section class="cards-full">
+    <!-- <div class="cards-full">
         <div class="images-sec">
             <div class="image-box">
                 <div class="box">
@@ -283,7 +306,27 @@
             </div>
 
         </div>
-    </section>
+    </div> -->
+
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Product Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Footer -->
     <footer class="cc-footer">
         <div class="footer-top">
@@ -336,6 +379,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="JS/Functionality.js"></script>
     <script src="JS/animation.js"></script>
+    <script src="JS/dodo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
